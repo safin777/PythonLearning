@@ -32,6 +32,8 @@ print ("String Length:",len(_slice_string))
 #output: 13
 
 ###### String Methods ######
+#https://www.w3schools.com/python/python_strings_methods.asp
+
 # upper()
 #lower()
 # strip() The strip() method removes any whitespace from the beginning or the end:
@@ -85,3 +87,22 @@ print(myorder.format(quantity, itemno, price))
 #output: I want 3 pieces of item 567 for 49.95 dollars.
 
 
+#Python - Escape Characters
+
+# \'	Single Quote
+# \\	Backslash
+# \n	New Line
+# \r	Carriage Return
+# \t	Tab
+# \b	Backspace
+# \f	Form Feed
+# \ooo	Octal value
+# \xhh	Hex value
+
+
+#Example
+
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+
+#output: We are the so-called "Vikings" from the north.
